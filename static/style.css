@@ -8,7 +8,7 @@ body {
 
 /* Initial menu */
 .menu {
-  background: #202024 url('dark_embroidery.png') repeat left top;
+  background: #202024 url('../files/dark_embroidery.png') repeat left top;
   left: -285px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
@@ -17,8 +17,8 @@ body {
 
 /* Basic styling */
 
-.jumbotron {
-  background-image: url('skyline.jpg');
+#homepage_jumbo {
+  background-image: url('../files/skyline.jpg');
   /*background-color: SkyBlue;*/
   height: 100%;
   -webkit-background-size: cover;
